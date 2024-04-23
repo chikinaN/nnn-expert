@@ -1,30 +1,15 @@
-# React + TypeScript + Vite
+# エキスパート教材のやつ
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## タイピングゲームみたいな...感じのゲーム
 
-Currently, two official plugins are available:
+アルファベットを打ち込むだけのゲーム
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 機能要件
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [x] 一文字ずつ打てるインプットタグ
+- [x] 間違えたらインプットタグが震える
+- [x] 正解したら1秒追加間違えたら1秒減少
+- [ ] 1次元の敵の出現
+- [ ] シューティング的な
+- [ ] 複数の敵の出現
+- [ ] スコア詳細
