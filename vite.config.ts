@@ -6,5 +6,7 @@ export default defineConfig({
   base: process.env.GITHUB_PAGES
   ? "nnn-expert"
   : "./",
-  plugins: [react()],
+  plugins: [react({
+    jsxImportSource: '@emotion/react',
+  })],
 })
